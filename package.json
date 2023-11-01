@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.14.0",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.2.1",
+    "better-sqlite3": "^7.6.2",
+    "chalk": "^5.2.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.26.1",
+    "discord-buttons": "^4.0.0",
+    "discord-gamecord": "^4.1.0",
+    "discord-giveaways": "^5.0.1",
+    "discord-hybrid-sharding": "^1.6.2",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "is-url": "^1.2.4",
+    "moment": "^2.29.4",
+    "ms": "^2.1.3",
+    "quick.db": "^9.0.8",
+    "simply-djs": "^2.5.2",
+    "sourcebin_js": "0.0.3-ignore",
+    "superagent": "^6.1.0",
+    "twemoji-parser": "^14.0.0"
+  }
+}
