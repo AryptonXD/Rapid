@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="rapid.png" width="200" height="200">
+  <img src="https://cdn.discordapp.com/attachments/1129025700612018287/1171835435308302476/resist-dark_2.png?ex=655e1fcb&is=654baacb&hm=9ad7760a89a5ea04e2b5b7e63da92c73d37e6cbbe9fb3770e49d270ae92632ad&" width="200" height="200">
 </div>
 
 # Rapid Bot
@@ -25,13 +25,13 @@ Rapid Bot is a professional and versatile Discord bot designed to enhance your s
 
 ## 💡 Getting Started
 
-Add Rapid Bot to your server by following this [invitation link](#). 
+Add Rapid Bot to your server by following this [invitation link](https://dsc.gg/iresist). 
 
 ---
 
 ## 📢 Support
 
-For any questions, issues, or suggestions, please join our [support server](#).
+For any questions, issues, or suggestions, please join our [support server](https://discord.gg/9qC6gSPj88).
 
 ---
 
