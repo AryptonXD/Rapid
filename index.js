@@ -39,6 +39,13 @@ client.on("ready", async () => {
   console.log(`Logged in as ${client.user.tag}`.cyan)
 });
 
+client.on("ready", async (client) => {
+  const data = await client.db4.get(`members_np`);
+    if (!data) {
+      await client.db4.set(`members_np`, { noprefixlist: [] });
+  }
+});
+
 client.on("ready", async c => {
   setInterval(() => {
     const channelid = "1095539235248934922"
