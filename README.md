@@ -12,11 +12,9 @@ Rapid Bot is a professional and versatile Discord bot designed to enhance your s
 
 - **Versatile Utility:** Manage your server efficiently with a suite of utility commands.
 - **Entertainment:** Engage your community with fun games, trivia, and more.
-- **Image Manipulation:** Unleash your creativity with image manipulation commands.
 - **Welcome Messages:** Greet newcomers with customizable welcome messages.
 - **Moderation:** Keep your server safe with robust moderation tools.
 - **Anti-Nuke:** Ensure server security with advanced anti-nuke capabilities.
-- **AI Capabilities:** Engage with Rapid's AI for a unique experience.
 - **Presence and Status Role:** Manage roles based on users' online presence and status.
 - **Giveaways:** Organize giveaways with ease.
 - **Polls:** Create engaging polls for your community.
