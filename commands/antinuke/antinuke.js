@@ -46,187 +46,187 @@ module.exports = {
     const autorecovery = await client.db.get(`${message.guild.id}_autorecovery`);
 
     if (antiban) {
-      antiwizz.push(`**Anti Ban** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Ban** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiban) {
-      antiwizz.push(`**Anti Ban** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Ban** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antikick) {
-      antiwizz.push(`**Anti Kick** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Kick** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antikick) {
-      antiwizz.push(`**Anti Kick** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Kick** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antibot) {
-      antiwizz.push(`**Anti Bot** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Bot** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antibot) {
-      antiwizz.push(`**Anti Bot** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Bot** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiunban) {
-      antiwizz.push(`**Anti Unban** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Unban** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiunban) {
-      antiwizz.push(`**Anti Unban** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Unban** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiguildup) {
-      antiwizz.push(`**Anti Guild Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Guild Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiguildup) {
-      antiwizz.push(`**Anti Guild Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Guild Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antimemberup) {
-      antiwizz.push(`**Anti Member Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Member Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antimemberup) {
-      antiwizz.push(`**Anti Member Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Member Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antichannelcreate) {
-      antiwizz.push(`**Anti Channel Create** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Channel Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antichannelcreate) {
-      antiwizz.push(`**Anti Channel Create** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Channel Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antichanneldelete) {
-      antiwizz.push(`**Anti Channel Delete** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Channel Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antichanneldelete) {
-      antiwizz.push(`**Anti Channel Delete** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Channel Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antichannelupdate) {
-      antiwizz.push(`**Anti Channel Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Channel Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antichannelupdate) {
-      antiwizz.push(`**Anti Channel Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Channel Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antirolecreate) {
-      antiwizz.push(`**Anti Role Create** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Role Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antirolecreate) {
-      antiwizz.push(`**Anti Role Create** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Role Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiroledelete) {
-      antiwizz.push(`**Anti Role Delete** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Role Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiroledelete) {
-      antiwizz.push(`**Anti Role Delete** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Role Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiroleupdate) {
-      antiwizz.push(`**Anti Role Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Role Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiroleupdate) {
-      antiwizz.push(`**Anti Role Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Role Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiwebhookcreate) {
-      antiwizz.push(`**Anti Webhook Create** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Webhook Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiwebhookcreate) {
-      antiwizz.push(`**Anti Webhook Create** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Webhook Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiwebhookdelete) {
-      antiwizz.push(`**Anti Webhook Delete** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Webhook Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiwebhookdelete) {
-      antiwizz.push(`**Anti Webhook Delete** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Webhook Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiwebhookupdate) {
-      antiwizz.push(`**Anti Webhook Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Webhook Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiwebhookupdate) {
-      antiwizz.push(`**Anti Webhook Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Webhook Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiemojicreate) {
-      antiwizz.push(`**Anti Emoji Create** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Emoji Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiemojicreate) {
-      antiwizz.push(`**Anti Emoji Create** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Emoji Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiemojidelete) {
-      antiwizz.push(`**Anti Emoji Delete** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Emoji Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiemojidelete) {
-      antiwizz.push(`**Anti Emoji Delete** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Emoji Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiemojiupdate) {
-      antiwizz.push(`**Anti Emoji Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Emoji Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiemojiupdate) {
-      antiwizz.push(`**Anti Emoji Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Emoji Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antistickercreate) {
-      antiwizz.push(`**Anti Sticker Create** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Sticker Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antistickercreate) {
-      antiwizz.push(`**Anti Sticker Create** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Sticker Create** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antistickerdelete) {
-      antiwizz.push(`**Anti Sticker Delete** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Sticker Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antistickerdelete) {
-      antiwizz.push(`**Anti Sticker Delete** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Sticker Delete** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antistickerupdate) {
-      antiwizz.push(`**Anti Sticker Update** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizz.push(`**Anti Sticker Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antistickerupdate) {
-      antiwizz.push(`**Anti Sticker Update** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizz.push(`**Anti Sticker Update** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (antiprune) {
-      antiwizzz.push(`**Anti Prune** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizzz.push(`**Anti Prune** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!antiprune) {
-      antiwizzz.push(`**Anti Prune** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizzz.push(`**Anti Prune** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (autorecovery) {
-      antiwizzz.push(`**Auto Recovery** <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`)
+      antiwizzz.push(`**Auto Recovery** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
 
     if (!autorecovery) {
-      antiwizzz.push(`**Auto Recovery** <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`)
+      antiwizzz.push(`**Auto Recovery** <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`)
     }
       
       const wlshowembed = new MessageEmbed()
@@ -248,127 +248,127 @@ module.exports = {
           label: `Antiban`,
           desciption: `Whitelist user from Antiban`,
           value: `w1`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antikick`,
           desciption: `Whitelist user from Antikick`,
           value: `w2`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antibot`,
           desciption: `Whitelist user from Antibot`,
           value: `w3`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiunban`,
           desciption: `Whitelist user from Antiunban`,
           value: `w4`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiguild Update`,
           desciption: `Whitelist user from Antiguild Update`,
           value: `w5`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antimember Update`,
           desciption: `Whitelist user from Antimember Update`,
           value: `w6`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antirole Create`,
           desciption: `Whitelist user from Antirole Create`,
           value: `w7`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antirole Delete`,
           desciption: `Whitelist user from Antirole Delete`,
           value: `w8`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antirole Update`,
           desciption: `Whitelist user from Antirole Update`,
           value: `w9`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antichannel Create`,
           desciption: `Whitelist user from Antichannel Create`,
           value: `w10`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antichannel Delete`,
           desciption: `Whitelist user from Antichannel Delete`,
           value: `w11`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antichannel Update`,
           desciption: `Whitelist user from Antichannel Update`,
           value: `w12`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiwebhook Create`,
           desciption: `Whitelist user from Antiwebhook Create`,
           value: `w13`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiwebhook Delete`,
           desciption: `Whitelist user from Antiwebhook Delete`,
           value: `w14`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiwebhook Update`,
           desciption: `Whitelist user from Antiwebhook Update`,
           value: `w15`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiemoji Create`,
           desciption: `Whitelist user from Antiemoji Create`,
           value: `w16`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiemoji Delete`,
           desciption: `Whitelist user from Antiemoji Delete`,
           value: `w17`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antiemoji Update`,
           desciption: `Whitelist user from Antiemoji Update`,
           value: `w18`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antisticker Create`,
           desciption: `Whitelist user from Antisticker Create`,
           value: `w19`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antisticker Delete`,
           desciption: `Whitelist user from Antisticker Delete`,
           value: `w20`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         },
         {
           label: `Antisticker Update`,
           desciption: `Whitelist user from Antisticker Update`,
           value: `w21`,
-          emoji: `1061549387043573802`
+          emoji: `1082692693479673936`
         }
       ])
     )
@@ -385,8 +385,8 @@ module.exports = {
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Antinuke.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke disable`);
 
     const eeee = new MessageEmbed()
       .setColor("#2f3136")
@@ -394,8 +394,8 @@ module.exports = {
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully enabled Antinuke settings.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke disable`);
 
     const ddddd = new MessageEmbed()
       .setColor("#2f3136")
@@ -403,55 +403,55 @@ module.exports = {
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Antinuke.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke enable`);
 
     const dddd = new MessageEmbed()
       .setColor("#2f3136")
       .setThumbnail(client.user.displayAvatarURL())
-      .setAuthor(client.user.tag, client.user.displayAvatarURL())
+      //.setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Antinuke settings.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To enable it use ${prefix}antinuke enable`);
 
     const raja = new MessageEmbed()
       .setColor("#2f3136")
       .setThumbnail(client.user.displayAvatarURL())
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .setDescription(`Only Server Owner can perform this command.`)
-      .setFooter("Add me to your server to use me ;)")
+     // .setFooter("Add me to your server to use me ;)")
 
     const features = new MessageEmbed()
       .setColor('#2f3136')
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .setThumbnail(client.user.displayAvatarURL())
       .setDescription(`・Need Help? Join [Support Server](https://dsc.gg/rapidhq)\n\n**Antinuke Features**
-> <a:arrows:1050760970122821642> Anti Ban
-> <a:arrows:1050760970122821642> Anti Kick
-> <a:arrows:1050760970122821642> Anti Bot
-> <a:arrows:1050760970122821642> Anti Unban
-> <a:arrows:1050760970122821642> Anti Guild Update
-> <a:arrows:1050760970122821642> Anti Member Update
-> <a:arrows:1050760970122821642> Anti Role Create
-> <a:arrows:1050760970122821642> Anti Role Delete
-> <a:arrows:1050760970122821642> Anti Role Update
-> <a:arrows:1050760970122821642> Anti Channel Create
-> <a:arrows:1050760970122821642> Anti Channel Delete
-> <a:arrows:1050760970122821642> Anti Channel Update
-> <a:arrows:1050760970122821642> Anti Webhook Create
-> <a:arrows:1050760970122821642> Anti Webhook Delete
-> <a:arrows:1050760970122821642> Anti Webhook Update
-> <a:arrows:1050760970122821642> Anti Emoji Create
-> <a:arrows:1050760970122821642> Anti Emoji Delete
-> <a:arrows:1050760970122821642> Anti Emoji Update
-> <a:arrows:1050760970122821642> Anti Sticker Create
-> <a:arrows:1050760970122821642> Anti Sticker Delete
-> <a:arrows:1050760970122821642> Anti Sticker Update
-> <a:arrows:1050760970122821642> Anti Prune
-> <a:arrows:1050760970122821642> Auto Recovery`)
+> <:purple_arrow:1082692693479673936> Anti Ban
+> <:purple_arrow:1082692693479673936> Anti Kick
+> <:purple_arrow:1082692693479673936> Anti Bot
+> <:purple_arrow:1082692693479673936> Anti Unban
+> <:purple_arrow:1082692693479673936> Anti Guild Update
+> <:purple_arrow:1082692693479673936> Anti Member Update
+> <:purple_arrow:1082692693479673936> Anti Role Create
+> <:purple_arrow:1082692693479673936> Anti Role Delete
+> <:purple_arrow:1082692693479673936> Anti Role Update
+> <:purple_arrow:1082692693479673936> Anti Channel Create
+> <:purple_arrow:1082692693479673936> Anti Channel Delete
+> <:purple_arrow:1082692693479673936> Anti Channel Update
+> <:purple_arrow:1082692693479673936> Anti Webhook Create
+> <:purple_arrow:1082692693479673936> Anti Webhook Delete
+> <:purple_arrow:1082692693479673936> Anti Webhook Update
+> <:purple_arrow:1082692693479673936> Anti Emoji Create
+> <:purple_arrow:1082692693479673936> Anti Emoji Delete
+> <:purple_arrow:1082692693479673936> Anti Emoji Update
+> <:purple_arrow:1082692693479673936> Anti Sticker Create
+> <:purple_arrow:1082692693479673936> Anti Sticker Delete
+> <:purple_arrow:1082692693479673936> Anti Sticker Update
+> <:purple_arrow:1082692693479673936> Anti Prune
+> <:purple_arrow:1082692693479673936> Auto Recovery`)
       .addField(`LINKS`, `• Join the [support server](https://dsc.gg/rapidhq) if you need help`, false)
-      .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+     // .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
 
     const guide = new MessageEmbed()
       .setColor('#2f3136')
@@ -495,7 +495,7 @@ module.exports = {
 > [30] | ${prefix}antinuke whitelist reset
 \`\`\``)
       .addField(`LINKS`, `• Join the [Support Server](https://dsc.gg/rapidhq) if you need help`, false)
-      .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+      //.setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
 
     const settingss = new MessageEmbed()
       .setColor("#2f3136")
@@ -505,7 +505,7 @@ module.exports = {
       .addFields({
         name: `Other Settings`, value: `To turn off/on any event type ${prefix}antinuke help
 Available Punishment for this is ban and it is fixed make sure to whitelist your trusted one's :)`})
-      .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+     // .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
 
     const alkick = new MessageEmbed()
       .setColor('#2f3136')
@@ -604,7 +604,7 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setThumbnail(client.user.displayAvatarURL())
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .setDescription(`${prefix}antinuke whitelist add <user>\nAdd a user to whitelisted users in the server.\n\n${prefix}antinuke whitelist remove <user>\nShows list of whitelisted users in the server.\n\n${prefix}antinuke whitelist show\nRemoves a user from whitelisted users in the server.\n\n${prefix}antinuke whitelist reset\nRemoves all the users from whitelisted users in the server.`)
-      .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+    //  .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
 
     const antibanalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -612,8 +612,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Ban.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiban disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiban disable`);
 
     const antibanon = new MessageEmbed()
       .setColor("#2f3136")
@@ -621,8 +621,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Ban.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiban disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiban disable`);
 
     const antibanalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -630,8 +630,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Ban.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiban enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiban enable`);
 
     const antibanoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -639,17 +639,17 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Ban.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiban enable`);
-
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+//.setFooter(`To enable it use ${prefix}antinuke antiban enable`);
+//
     const antikickalreadyon = new MessageEmbed()
       .setColor("#2f3136")
       .setThumbnail(client.user.displayAvatarURL())
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Kick.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antikick disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antikick disable`);
 
     const antikickon = new MessageEmbed()
       .setColor("#2f3136")
@@ -657,8 +657,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Kick.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antikick disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antikick disable`);
 
     const antikickalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -666,8 +666,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Kick.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antikick enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antikick enable`);
 
     const antikickoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -675,8 +675,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Kick.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antikick enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antikick enable`);
 
     const antibotalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -684,8 +684,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Bot.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antibot disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antibot disable`);
 
     const antiboton = new MessageEmbed()
       .setColor("#2f3136")
@@ -694,8 +694,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor({ name: 'Rapid Security', iconURL: 'https://cdn.discordapp.com/avatars/1002306671261003948/1c9d936195dd203d6a63bc2227185c4d.webp?size=2048' })
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Bot.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antibot disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antibot disable`);
 
     const antibotalreadyoff = new MessageEmbed() //antiunban
       .setColor("#2f3136")
@@ -703,8 +703,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Bot.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antibot enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antibot enable`);
 
     const antibotoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -712,8 +712,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Bot.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antibot enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antibot enable`);
 
     const antiunbanalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -721,8 +721,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Unban.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiunban disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antiunban disable`);
 
     const antiunbanon = new MessageEmbed()
       .setColor("#2f3136")
@@ -730,8 +730,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Unban.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiunban disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     /// .setFooter(`To disable it use ${prefix}antinuke antiunban disable`);
 
     const antiunbanalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -739,8 +739,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Unban.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiunban enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiunban enable`);
 
     const antiunbanoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -748,8 +748,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Unban.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiunban enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiunban enable`);
 
     const antiguildupalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -757,8 +757,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Guild Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiguild update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiguild update disable`);
 
     const antiguildupon = new MessageEmbed()
       .setColor("#2f3136")
@@ -766,8 +766,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Guild Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiguild update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiguild update disable`);
 
     const antiguildupalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -775,8 +775,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Guild Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiguild update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiguild update enable`);
 
     const antiguildupoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -784,8 +784,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Guild Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiguild update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiguild update enable`);
 
     const antimemberupalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -793,8 +793,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Member Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antimember update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antimember update disable`);
 
     const antimemberupon = new MessageEmbed()
       .setColor("#2f3136")
@@ -802,8 +802,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Member Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antimember update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antimember update disable`);
 
     const antimemberupalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -811,8 +811,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Member Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antimember update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antimember update enable`);
 
     const antimemberupoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -820,8 +820,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Member Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antimember update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antimember update enable`);
 
     const antichannelcreatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -829,8 +829,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Channel Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antichannel create disable`);
 
     const antichannelcreateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -838,8 +838,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Channel Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antichannel create disable`);
 
     const antichannelcreatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -847,8 +847,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Channel Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antichannel create enable`);
 
     const antichannelcreateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -856,8 +856,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Channel Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antichannel create enable`);
 
     const antichanneldeletealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -865,8 +865,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Channel Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antichannel delete disable`);
 
     const antichanneldeleteon = new MessageEmbed()
       .setColor("#2f3136")
@@ -874,8 +874,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Channel Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To disable it use ${prefix}antinuke antichannel delete disable`);
 
     const antichanneldeletealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -883,8 +883,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Channel Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antichannel delete enable`);
 
     const antichanneldeleteoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -892,8 +892,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Channel Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antichannel delete enable`);
 
     const antichannelupdatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -901,8 +901,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Channel Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antichannel update disable`);
 
     const antichannelupdateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -910,8 +910,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Channel Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antichannel update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antichannel update disable`);
 
     const antichannelupdatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -919,8 +919,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Channel Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antichannel update enable`);
 
     const antichannelupdateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -928,8 +928,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Channel Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antichannel update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To enable it use ${prefix}antinuke antichannel update enable`);
 
     const antirolecreatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -937,8 +937,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Role Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To disable it use ${prefix}antinuke antirole create disable`);
 
     const antirolecreateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -946,8 +946,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Role Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antirole create disable`);
 
     const antirolecreatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -955,8 +955,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Role Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antirole create enable`);
 
     const antirolecreateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -964,8 +964,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Role Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To enable it use ${prefix}antinuke antirole create enable`);
 
     const antiroledeletealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -973,8 +973,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Role Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antirole delete disable`);
 
     const antiroledeleteon = new MessageEmbed()
       .setColor("#2f3136")
@@ -982,8 +982,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Role Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To disable it use ${prefix}antinuke antirole delete disable`);
 
     const antiroledeletealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -991,8 +991,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Role Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antirole delete enable`);
 
     const antiroledeleteoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1000,8 +1000,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Role Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antirole delete enable`);
 
     const antiroleupdatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1009,8 +1009,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Role Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+  //    .setFooter(`To disable it use ${prefix}antinuke antirole update disable`);
 
     const antiroleupdateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1018,8 +1018,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Role Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antirole update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To disable it use ${prefix}antinuke antirole update disable`);
 
     const antiroleupdatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1027,8 +1027,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Role Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To enable it use ${prefix}antinuke antirole update enable`);
 
     const antiroleupdateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1036,8 +1036,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Role Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antirole update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+//.setFooter(`To enable it use ${prefix}antinuke antirole update enable`);
 
     const antiwebhookcreatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1045,8 +1045,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Webhook Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiwebhook create disable`);
 
     const antiwebhookcreateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1054,8 +1054,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Webhook Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiwebhook create disable`);
 
     const antiwebhookcreatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1063,8 +1063,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Webhook Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+  //    .setFooter(`To enable it use ${prefix}antinuke antiwebhook create enable`);
 
     const antiwebhookcreateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1072,8 +1072,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Webhook Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiwebhook create enable`);
 
     const antiwebhookdeletealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1081,8 +1081,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Webhook Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   //   .setFooter(`To disable it use ${prefix}antinuke antiwebhook delete disable`);
 
     const antiwebhookdeleteon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1090,8 +1090,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Webhook Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiwebhook delete disable`);
 
     const antiwebhookdeletealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1099,8 +1099,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Webhook Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiwebhook delete enable`);
 
     const antiwebhookdeleteoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1108,8 +1108,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Webhook Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiwebhook delete enable`);
 
     const antiwebhookupdatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1117,8 +1117,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Webhook Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiwebhook update disable`);
 
     const antiwebhookupdateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1126,8 +1126,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Webhook Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiwebhook update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiwebhook update disable`);
 
     const antiwebhookupdatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1135,8 +1135,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Webhook Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiwebhook update enable`);
 
     const antiwebhookupdateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1144,8 +1144,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Webhook Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiwebhook update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiwebhook update enable`);
 
     const antiemojicreatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1153,8 +1153,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Emoji Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiemoji create disable`);
 
     const antiemojicreateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1162,8 +1162,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Emoji Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiemoji create disable`);
 
     const antiemojicreatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1171,8 +1171,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Emoji Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To enable it use ${prefix}antinuke antiemoji create enable`);
 
     const antiemojicreateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1180,8 +1180,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Emoji Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiemoji create enable`);
 
     const antiemojideletealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1189,8 +1189,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Emoji Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiemoji delete disable`);
 
     const antiemojideleteon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1198,8 +1198,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Emoji Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiemoji delete disable`);
 
     const antiemojideletealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1207,8 +1207,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Emoji Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiemoji delete enable`);
 
     const antiemojideleteoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1216,8 +1216,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Emoji Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antiemoji delete enable`);
 
     const antiemojiupdatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1225,8 +1225,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Emoji Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke antiemoji update disable`);
 
     const antiemojiupdateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1234,8 +1234,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Emoji Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiemoji update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+   ///   .setFooter(`To disable it use ${prefix}antinuke antiemoji update disable`);
 
     const antiemojiupdatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1243,8 +1243,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Emoji Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiemoji update enable`);
 
     const antiemojiupdateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1252,8 +1252,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Emoji Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiemoji update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiemoji update enable`);
 
     const antistickercreatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1261,8 +1261,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Sticker Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antisticker create disable`);
 
     const antistickercreateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1270,8 +1270,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Sticker Create.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker create disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antisticker create disable`);
 
     const antistickercreatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1279,8 +1279,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Sticker Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antisticker create enable`);
 
     const antistickercreateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1288,8 +1288,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti v Create.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker create enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antisticker create enable`);
 
     const antistickerdeletealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1297,8 +1297,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Sticker Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antisticker delete disable`);
 
     const antistickerdeleteon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1306,8 +1306,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Sticker Delete.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker delete disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antisticker delete disable`);
 
     const antistickerdeletealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1315,8 +1315,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Sticker Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antisticker delete enable`);
 
     const antistickerdeleteoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1324,8 +1324,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Sticker Delete.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker delete enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antisticker delete enable`);
 
     const antistickerupdatealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1333,8 +1333,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Sticker Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antisticker update disable`);
 
     const antistickerupdateon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1342,8 +1342,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Sticker Update.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antisticker update disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antisticker update disable`);
 
     const antistickerupdatealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1351,8 +1351,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Sticker Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To enable it use ${prefix}antinuke antisticker update enable`);
 
     const antistickerupdateoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1360,8 +1360,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Sticker Update.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antisticker update enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antisticker update enable`);
 
     const antiprunealreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1369,8 +1369,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Anti Prune.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiprune disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke antiprune disable`);
 
     const antipruneon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1378,8 +1378,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Anti Prune.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke antiprune disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To disable it use ${prefix}antinuke antiprune disable`);
 
     const antiprunealreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1387,8 +1387,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Anti Prune.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiprune enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiprune enable`);
 
     const antipruneoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1396,8 +1396,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Anti Prune.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke antiprune enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke antiprune enable`);
 
     const autorecoveryalreadyon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1405,8 +1405,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already enabled Auto Recovery.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke autorecovery disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+    //  .setFooter(`To disable it use ${prefix}antinuke autorecovery disable`);
 
     const autorecoveryon = new MessageEmbed()
       .setColor("#2f3136")
@@ -1414,8 +1414,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully Enabled Auto Recovery.
-      Current Status : <:ET_disabler:1020379834498682921><:ET_enabled:1020380165412499559>`})
-      .setFooter(`To disable it use ${prefix}antinuke autorecovery disable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To disable it use ${prefix}antinuke autorecovery disable`);
 
     const autorecoveryalreadyoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1423,8 +1423,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Ohh uh! looks like your server has already disabled Auto Recovery.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke autorecovery enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+      //.setFooter(`To enable it use ${prefix}antinuke autorecovery enable`);
 
     const autorecoveryoff = new MessageEmbed()
       .setColor("#2f3136")
@@ -1432,8 +1432,8 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
       .setAuthor(client.user.tag, client.user.displayAvatarURL())
       .addFields({
         name: `Security Settings`, value: `Successfully disabled Auto Recovery.
-      Current Status : <:ET_disabled:1020380187612950559><:ET_enabler:1020379564410687569>`})
-      .setFooter(`To enable it use ${prefix}antinuke autorecovery enable`);
+      Current Status : <:purple_arrow:1082692693479673936><:purple_arrow:1082692693479673936>`})
+     // .setFooter(`To enable it use ${prefix}antinuke autorecovery enable`);
 
     const onkrle = new MessageEmbed()
       .setColor('#2f3136')
@@ -1472,7 +1472,7 @@ Available Punishment for this is ban and it is fixed make sure to whitelist your
     const pag = new MessageActionRow().addComponents(
             new MessageButton().setStyle(`PRIMARY`).setCustomId(`lol1`).setLabel(`≪`),
             new MessageButton().setStyle(`SUCCESS`).setCustomId(`lol2`).setLabel(`Back`),
-            new MessageButton().setStyle(`DANGER`).setCustomId(`lol3`).setEmoji(`1003992348205777036`),
+            new MessageButton().setStyle(`DANGER`).setCustomId(`lol3`).setEmoji(`1082692693479673936`),
             new MessageButton().setStyle(`SUCCESS`).setCustomId(`lol4`).setLabel(`Next`),
             new MessageButton().setStyle(`PRIMARY`).setCustomId(`lol5`).setLabel(`≫`)
         );
@@ -2269,7 +2269,7 @@ Shows all Antinuke features.`)
               			.setAuthor(client.user.tag, client.user.displayAvatarURL())
                         .setTitle(`Total Whitelisted Users`)
                         .setDescription(mentions.join('\n'))
-      					.setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+      				//	.setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
                       return message.channel.send({ embeds: [wlistembed] })
                     } else {
                         return message.channel.send({  embeds: [whynoone] })
@@ -2303,7 +2303,7 @@ Shows all Antinuke features.`)
               			.setAuthor(client.user.tag, client.user.displayAvatarURL())
                         .setTitle(`Total Whitelisted Users`)
                         .setDescription(mentions.join('\n'))
-     					 .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
+     					// .setFooter(`Made by ${client.guilds.cache.get(`968742392507293756`).name} with 💞`, `${client.guilds.cache.get(`968742392507293756`).iconURL({ dynamic: true })}`);
                       return message.channel.send({ embeds: [wlistembed] })
                     } else {
                         return message.channel.send({  embeds: [whynoone] })
@@ -2417,7 +2417,7 @@ Shows all Antinuke features.`)
             filter :(interaction) => {
                 if (message.author.id === interaction.user.id) return true;
               else {
-      return interaction.reply({content : `<a:ET_cross:1003992348205777036> | This Pagination is not for you.` , ephemeral : true})
+      return interaction.reply({content : `<:purple_arrow:1082692693479673936> | This Pagination is not for you.` , ephemeral : true})
         }
             },
             time : 100000,
